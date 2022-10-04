@@ -21,8 +21,8 @@ const defenderWidth=28,
 	  defenderHeight=16;
 
 const spriteSheet = new Image();
-//spriteSheet.src = "space_invaders_sprite_sheet.png";
-spriteSheet.src = "https://image.ibb.co/hMnvKU/space-invaders-sprite-sheet.png";
+spriteSheet.src = "./space_invaders_sprite_sheet.png";
+// spriteSheet.src = "https://image.ibb.co/hMnvKU/space-invaders-sprite-sheet.png";
 
 //stores all data related to defender, invaders, bullets, score, and lives
 let data={};
